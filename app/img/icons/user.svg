@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>User</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-1920" transform="translate(-1515.000000, -41.000000)" fill="#10BE62" fill-rule="nonzero">
+            <g id="Menu" transform="translate(320.000000, 15.000000)">
+                <g id="Content">
+                    <g id="Login" transform="translate(1170.000000, 14.000000)">
+                        <g id="Group" transform="translate(25.000000, 8.000000)">
+                            <g id="User" transform="translate(0.000000, 4.000000)">
+                                <circle id="Oval" cx="5.91216216" cy="3.24324324" r="3.24324324"></circle>
+                                <path d="M5.91216216,8.10810811 C2.66562162,8.10810811 0.0337837838,10.7399459 0.0337837838,13.9864865 L11.7905405,13.9864865 C11.7905405,10.7399459 9.1587027,8.10810811 5.91216216,8.10810811 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

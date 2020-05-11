@@ -2,14 +2,22 @@
 
 @import 'settings/reset';
 
-@import 'settings/fonts';
-
 @import 'settings/common';
 
+@import 'settings/buttons-and-inputs';
 
 @import 'blocks/header';
 
+@import 'blocks/home-page';
+
+@import 'blocks/contacts-page';
+
+@import 'blocks/faq-page';
+
+@import 'blocks/blog-page';
+
+@import 'blocks/how-it-works-page';
+
+@import 'blocks/about-page';
+
 @import 'blocks/footer';
-
-
-@import 'media';

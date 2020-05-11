@@ -1,3 +1,7 @@
+$black: #010101;
+$grey: #595f6f;
+$green: #10be62;
+
 @mixin clearfix() {
     &:before,
     &:after {

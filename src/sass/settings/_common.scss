@@ -11,16 +11,119 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #fff;
-    font-family: sans-serif;
+    background-color: #f7f8fb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    /*word-break: break-all;*/
-    /*word-wrap: break-word;*/
 }
 .container {
-    max-width: 980px;
+    max-width: 1170px;
     margin: 0 auto;
-    padding: 0 10px;
+
+    @media screen and (max-width: 1070px) {
+        max-width: 900px;
+    }
+
+    @media screen and (max-width: 768px) {
+        max-width: 90%;
+    }
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.gradient {
+    background: rgb(19,206,107) linear-gradient(90deg, rgba(19,206,107,1) 0%, rgba(12,153,78,1) 100%);
+}
+
+.contact-line-section {
+    padding: 40px 0;
+    color: #fff;
+
+    &__wrap {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media screen and (max-width: 768px) {
+            width: 90%;
+            flex-direction: column;
+        }
+    }
+
+    &__heading {
+        font-size: 36px;
+        line-height: 1.72;
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: 20px;
+        }
+
+        @media screen and (max-width: 400px) {
+            text-align: center;           
+        }
+    }
+
+    .btn {
+        width: 210px;
+    }
+}
+
+
+        
+.circles {
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: rotateX(180deg);
+
+    @media screen and (max-width: 768px) {
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width: 400px) {
+        display: none;       
+    }
+  
+    .circle {
+        margin: 0 10px;
+        height: 165px;
+        width: 165px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: $black;
+        border-radius: 50%;
+        transform: rotateX(-180deg);
+        box-shadow: 10px 10px 40px 0 rgba(0, 0, 0, 0.2);
+        background-image: linear-gradient(43deg, #ddfff7 6%, #eafff9 37%, #ffffff 94%);
+        
+        &__number {
+            margin-bottom: 8px;
+            font-size: 48px;
+            font-weight: 500;
+        }
+
+        &__text {
+            text-align: center;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
 }

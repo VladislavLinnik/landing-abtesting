@@ -1,0 +1,252 @@
+.faq {
+    
+    &-hero {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        color: $black;
+
+        @media screen and (max-width: 400px) {
+            height: auto;
+            margin-top: 200px;           
+        }
+
+        .container {
+            flex: 1;
+        }
+
+        &__title {
+            margin-bottom: 20px;
+            max-width: 480px;
+            font-size: 64px;
+            font-weight: 500;
+            letter-spacing: -1.33px;
+            line-height: 1.14;
+        }
+
+        &__descr {
+            max-width: 450px;
+            color: $grey;
+            letter-spacing: -0.5px;
+            line-height: 1.28;
+        }
+    }
+
+    &-details {
+        padding: 25vh 0;
+
+        @media screen and (max-width: 768px) {
+            padding: 15vh 0;    
+        }
+
+        @media screen and (max-width: 400px) {
+            padding: 10vh 0;           
+        }
+
+        &__list {
+            margin: 0 auto;
+            width: 1000px;
+
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
+        }
+
+        &__item {
+            
+            &:not(:last-child) {
+                margin-bottom: 35px;
+            }
+         
+            .head {
+                padding: 35px 45px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 40px 40px 80px 0 rgba(0, 0, 0, 0.1);
+
+                @media screen and (max-width: 400px) {
+                    padding: 30px 12px;
+                }
+                
+                &__text {
+                    margin-right: 20px;
+                    color: #0a0d10;
+                    font-size: 30px;
+                    font-weight: 500;
+
+                    @media screen and (max-width: 400px) {
+                        font-size: 20px;
+                    }
+                }
+
+                &__icon {
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 10px 0 10px 13px;
+                    border-color: transparent transparent transparent $green;
+                    cursor: pointer;
+                }
+            }
+
+            .detail {
+                padding: 30px 45px;
+                display: none;
+                background-color: #fff;
+                color: $grey;
+                line-height: 1.33;
+
+                @media screen and (max-width: 400px) {
+                    padding: 30px 12px;
+                }
+            }
+
+            &.active {
+
+                .head__icon {
+                    border-width: 13px 10px 0 10px;
+                    border-color: $green transparent transparent transparent;
+                }
+
+                .detail {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    &-latest {
+        padding: 25vh 0;
+        background-color: #fff;
+        color: $black;
+
+        @media screen and (max-width: 768px) {
+            padding: 15vh 0;    
+        }
+
+        @media screen and (max-width: 400px) {
+            padding: 10vh 0;           
+        }
+
+        &__title {
+            margin-bottom: 100px;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 1.29;
+            letter-spacing: -1px;
+        }
+
+        &__wrap {
+            padding: 0 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            @media screen and (max-width: 768px) {
+                padding: 0;
+                flex-direction: column;
+            }
+        }
+
+        &__article {
+            padding: 60px;
+            width: 48%;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 20px 20px 60px 0 rgba(0, 0, 0, 0.1);
+
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
+
+            @media screen and (max-width: 400px) {
+                padding: 45px 30px;       
+            }
+
+            &:first-child {
+                margin-right: 4%;
+
+                @media screen and (max-width: 768px) {
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .top {
+                margin-bottom: 20px;
+                display: flex;
+                align-items: center;
+                color: rgba($grey, .4);
+                font-size: 12px;
+
+                &__category {
+                    margin-right: 20px;
+                    font-weight: bold;
+                }
+            }
+
+            .body {
+                margin-bottom: 40px;
+
+                &__title {
+                    margin-bottom: 5px;
+                    font-size: 24px;
+                    line-height: normal;
+
+                    @media screen and (max-width: 400px) {
+                        margin-bottom: 15px;
+                    }
+                }
+
+                &__description {
+                    color: $grey;
+                    font-size: 14px;
+                    line-height: 1.29;
+                }
+            }
+
+            .btn {
+                width: 240px;
+
+                @media screen and (max-width: 400px) {
+                    margin: 0 auto;
+                    width: 210px;
+                }
+            }
+        }
+    }
+
+    &-doubt {
+        padding: 25vh 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: $black;
+
+        @media screen and (max-width: 768px) {
+            padding: 15vh 0;    
+        }
+
+        @media screen and (max-width: 400px) {
+            padding: 10vh 0;           
+        }
+
+        &__title {
+            margin-bottom: 55px;
+            font-size: 48px;
+            font-weight: 500;
+            letter-spacing: -1px;
+
+            @media screen and (max-width: 400px) {
+                margin-bottom: 30px;
+                font-size: 32px;       
+            }
+        }
+    }
+}
