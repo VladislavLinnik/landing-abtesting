@@ -1,4 +1,14 @@
 .faq {
+
+    &-bg {
+        background: url('../img/curved_lines/faq/header-up.svg') 100% 0 no-repeat, 
+                    url('../img/curved_lines/faq/header-down.svg') 100% 0 no-repeat;
+        background-size: 900px;
+
+        @media screen and (max-width: 768px) {
+            background-position: 200px 0;
+        }
+    }
     
     &-hero {
         height: 100vh;
@@ -7,12 +17,15 @@
         color: $black;
 
         @media screen and (max-width: 400px) {
-            height: auto;
-            margin-top: 200px;           
+            height: auto;      
         }
 
         .container {
             flex: 1;
+
+            @media screen and (max-width: 400px) {
+                padding-top: 100px;    
+            }
         }
 
         &__title {

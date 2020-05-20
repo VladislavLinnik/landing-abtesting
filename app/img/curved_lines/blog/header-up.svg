@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1516px" height="1052px" viewBox="0 0 1516 1052" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>up (mask for picture)</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="109.517132%" y1="67.9835194%" x2="23.7727686%" y2="41.8020675%" id="linearGradient-1">
+            <stop stop-color="#0C994E" offset="0%"></stop>
+            <stop stop-color="#13CE6B" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1157.28647,-608.345843 L2478.84342,-608.345843 C2578.80696,-608.345843 2659.84342,-527.309383 2659.84342,-427.345843 L2659.84342,769.704761 C2659.84343,855.968431 2598.96573,930.24464 2514.38112,947.181724 C2118.54724,1026.44285 1846.25058,1037.88219 1697.49116,981.499732 C1447.99068,886.934628 1054.89526,973.790726 949.094596,810.652443 C881.730541,706.781103 998.869629,371.35868 976.044631,184.202908 C944.457607,-74.7979526 771.313126,-189.68269 605.786303,-269.368252 C418.270015,-359.63967 587.404284,-470.814224 1113.18911,-602.891914 C1127.60845,-606.514068 1142.41914,-608.345843 1157.28647,-608.345843 Z" id="path-2"></path>
+        <filter x="-3.0%" y="-4.2%" width="107.0%" height="109.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="10" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="23" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Blog-1920" transform="translate(-404.000000, 0.000000)">
+            <g id="Header">
+                <g id="Bg">
+                    <g id="Image">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <g id="up-(mask-for-picture)" transform="translate(1595.843425, 204.154157) rotate(-15.000000) translate(-1595.843425, -204.154157) ">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

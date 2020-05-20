@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="549px" height="1155px" viewBox="0 0 549 1155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>up</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="82.8416095%" y1="80.8397753%" x2="35.527789%" y2="35.9414396%" id="linearGradient-1">
+            <stop stop-color="#0C994E" offset="0%"></stop>
+            <stop stop-color="#13CE6B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="How-it-works-1920" transform="translate(0.000000, -5780.000000)" fill="url(#linearGradient-1)">
+            <path d="M-19.8064047,6933.80772 C359.397865,6948.01017 549,6835.32769 549,6595.76029 C549,6236.40919 176.874564,6141.95865 137.688951,5943.5904 C98.5033385,5745.22214 -115.43573,5749 -274.791195,5749 C-381.028172,5749 -339.303284,5899.52161 -149.616529,6200.56484 L-19.8064047,6933.80772 Z" id="up"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1372px" height="1080px" viewBox="0 0 1372 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="97.0196669%" y1="80.8397753%" x2="29.279988%" y2="35.9414396%" id="linearGradient-1">
+            <stop stop-color="#0C994E" offset="0%"></stop>
+            <stop stop-color="#13CE6B" offset="100%"></stop>
+        </linearGradient>
+        <path d="M672.528977,-295.359371 C828.348075,-505.317492 1102.97845,-709.858129 1496.42011,-908.981283 C1585.61132,-954.121486 1694.50845,-918.411086 1739.64865,-829.219875 C1742.80767,-822.97805 1745.60217,-816.558328 1748.01807,-809.993023 L2254.3534,565.992781 C2301.63261,694.475872 2235.80386,836.95937 2107.32077,884.238584 C2090.13189,890.56375 2072.29494,894.964414 2054.13656,897.359988 C2054.13656,897.359988 2054.13656,897.359988 2054.13656,897.359988 C1833.47396,926.471273 1961.48365,1117.00599 1520.39777,1059.00361 C1293.90665,1029.22023 915.758203,993.7185 764.793569,753.888892 C621.75829,526.656235 1036.96113,299.024658 963.529377,178.336001 C911.259304,92.4275883 404.165836,66.2459864 672.528977,-295.359371 Z" id="path-2"></path>
+        <filter x="-3.5%" y="-0.0%" width="99.2%" height="103.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="10" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="23" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="How-it-works-1920" transform="translate(-548.000000, 0.000000)">
+            <g id="Header">
+                <g id="Bg">
+                    <g id="Image">
+                        <g id="down" transform="translate(1513.282380, 36.390327) rotate(-15.000000) translate(-1513.282380, -36.390327) ">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

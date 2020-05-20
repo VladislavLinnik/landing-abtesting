@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1050px" height="962px" viewBox="0 0 1050 962" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="109.517132%" y1="72.4713032%" x2="23.7727686%" y2="39.7562751%" id="linearGradient-1">
+            <stop stop-color="#0C994E" offset="0%"></stop>
+            <stop stop-color="#13CE6B" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1218.24014,-658 L2452.12736,-658 C2552.0909,-658 2633.12736,-576.96354 2633.12736,-477 L2633.12736,603.253439 C2633.12736,703.216977 2552.0909,784.253435 2452.12736,784.253435 C2449.29199,784.253435 2446.45702,784.186811 2443.62478,784.053618 C2099.20295,767.85632 1863.25516,768.166266 1735.78141,784.983455 C1511.32316,814.595487 1166.64825,857.390866 1065.89815,702.020712 C912.976331,466.194773 1135.03808,-13.7464084 961.985057,-255.732638 C852.304562,-409.102798 912.918716,-537.857335 1143.82752,-641.996247 C1167.21702,-652.544816 1192.58198,-658 1218.24014,-658 Z" id="path-2"></path>
+        <filter x="-3.7%" y="-4.7%" width="108.6%" height="110.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="10" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="23" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAQ-1920" transform="translate(-870.000000, 0.000000)">
+            <g id="Header">
+                <g id="Bg">
+                    <g id="Image">
+                        <g id="down" transform="translate(1771.065775, 77.862753) rotate(-15.000000) translate(-1771.065775, -77.862753) ">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

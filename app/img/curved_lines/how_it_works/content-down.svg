@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="832px" viewBox="0 0 320 832" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="82.8416095%" y1="80.8397753%" x2="35.527789%" y2="35.9414396%" id="linearGradient-1">
+            <stop stop-color="#0C994E" offset="0%"></stop>
+            <stop stop-color="#13CE6B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="How-it-works-1920" transform="translate(0.000000, -5670.000000)" fill="url(#linearGradient-1)">
+            <path d="M-248.806405,6514.80772 C130.397865,6529.01017 320,6416.32769 320,6176.76029 C320,5817.40919 -52.1254362,5722.95865 -91.3110488,5524.5904 C-130.496661,5326.22214 -344.43573,5330 -503.791195,5330 C-610.028172,5330 -568.303284,5480.52161 -378.616529,5781.56484 L-248.806405,6514.80772 Z" id="down"></path>
+        </g>
+    </g>
+</svg>

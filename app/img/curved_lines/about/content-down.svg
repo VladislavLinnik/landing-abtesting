@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="330px" height="1141px" viewBox="0 0 330 1141" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="59.3067313%" y1="80.8397753%" x2="45.8988313%" y2="35.9414396%" id="linearGradient-1">
+            <stop stop-color="#0C994E" offset="0%"></stop>
+            <stop stop-color="#13CE6B" offset="100%"></stop>
+        </linearGradient>
+        <path d="M104.955135,2668.05959 C335.381252,2530.88715 293.08113,2112.09149 196.098749,1798.48949 C131.443828,1589.42149 18.7442451,1577.25524 -142,1761.99074 C-130.980654,2457.48493 -48.6622757,2759.50789 104.955135,2668.05959 Z" id="path-2"></path>
+        <filter x="-15.4%" y="-6.6%" width="135.6%" height="114.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="10" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="23" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="1920" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-us-1920" transform="translate(0.000000, -1592.000000)">
+            <g id="down">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>
